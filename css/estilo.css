@@ -1,23 +1,30 @@
 
 .container {
 
-  display: flex;
+  
+    width: 80%;
+    padding: 1em; 
+
+}
+
   
 
 
 
-}
 .carousel-inner {
 
   width: 400px;
   height: 400px;
 }
 
-
+.xyz {
+  text-align: justify;
+}
 
  
 .paz {
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color:#020201;
+  
   color: white;
   
   
@@ -36,4 +43,26 @@ color: rgba(233, 65, 163, 0.767);
 
   background-image: green;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+      padding: 0.5em;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+      width: 90%;
+      padding: 1em;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+      width: 80%;
+      padding: 1.5em;
+  }
 }
